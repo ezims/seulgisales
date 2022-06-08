@@ -40,25 +40,26 @@
     border-left: 1px solid gray; 
   }
   nav,aside{
-    flex-basis: 150px;
+    flex-basis: 160px;
     flex-shrink: 0;
+    font-size:13px;
   }
 
   main{
     padding: 10px;
   }
   aside{
-    padding: 10px;
+    padding: 5px;
   }
 
   nav{
     order: -1;
-   
+    padding: 5px;
     }
 
   nav ul li {                       
     list-style: none;
-    margin: 10px;
+    /* margin: 3px; */
     
   }
 
